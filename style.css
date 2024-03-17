@@ -75,7 +75,7 @@ button img {
 .Humidity-box,
 .wind-box {
     display: flex;
-    gap: 6px;
+    gap: 10px;
 }
 
 .Humidity-box img,
