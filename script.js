@@ -22,7 +22,6 @@ async function getWeather(cityName) {
     }
 }
 
-
 function kevinToCelsius(k) {
     return k - 273.15;
 }

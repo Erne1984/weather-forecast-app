@@ -48,17 +48,42 @@ button img {
     width: 16px;
 }
 
-.box-icon{
+.box-icon {
     text-align: center;
 }
 
+.box-icon img {
+    width: 150px;
+}
+
 .box-celsius {
-    font-size: 2.4rem;
-    margin: 15px 0;
+    font-size: 4.5rem;
+    margin: 0 0 55px 0;
     text-align: center;
     color: #fff;
 }
 
 .box-celsius #field-city {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Humidity-box,
+.wind-box {
+    display: flex;
+    gap: 6px;
+}
+
+.Humidity-box img,
+.wind-box img {
+    width: 35px;
+}
+
+.info-humidity,
+.info-wind {
+    color: #fff;
 }
